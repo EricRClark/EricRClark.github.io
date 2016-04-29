@@ -80,12 +80,12 @@ h1 {
   text-shadow: 1px 1px 2px black, 0 0 1em #FFC190, 0 0 0.2em #FFC190;
 }
 nav.navbar {
-  padding-left: 43%;
+  padding-left: 44%;
   padding-top: 3%;
 }
 img {
     height: 156px;
-    margin-left: 43%;
+    margin-left: 44%;
     border: 5px solid;
     border-radius: 75px;
 }
