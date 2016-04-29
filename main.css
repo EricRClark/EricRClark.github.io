@@ -30,10 +30,11 @@ h1 {
   font-size: 70px;
   color: #FF4F00;
   text-align: center;
-  padding-top: 12%;
+  padding-top: 8%;
   font-family: monospace;
   font-weight: 500;
   text-shadow: 1px 1px 2px black, 0 0 1em #FFC190, 0 0 0.2em #395C9C;
+  position: static;
 }
 
  h3 {
@@ -44,10 +45,11 @@ h1 {
   font-family: monospace;
   font-weight: 700;
   text-shadow: 1px 1px 2px black, 0 0 1em #FFC190, 0 0 0.2em #395C9C;
+  position: static;
 }
 
 
-.button.-sun {
+.button.-projects, .button.-contact, .button.-about {
   color: #031029;
   background: transparent;
 }
@@ -76,15 +78,16 @@ h1 {
   font-weight: 800;
   transition: all 60ms ease-in-out;
   text-shadow: 1px 1px 2px black, 0 0 1em #FFC190, 0 0 0.2em #FFC190;
+}
+nav.navbar {
+  padding-left: 43%;
+  padding-top: 3%;
+}
+img {
+    height: 156px;
+    margin-left: 43%;
+    border: 5px solid;
+    border-radius: 75px;
+}
 
-  /*&:hover {
-    opacity: .95;
-    transition: all 60ms ease;
-  }
-
-  &:active {
-    opacity: .75;
-    transform: scale(.97);
-    transition: all 60ms ease;
-  }*/
 }

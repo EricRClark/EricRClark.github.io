@@ -1,0 +1,32 @@
+{
+  "name": "ericrclark.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.5",
+    "angular": "^1.5.5",
+    "save": "^2.3.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricRClark/EricRClark.github.io.git"
+  },
+  "keywords": [
+    "eric",
+    "clark",
+    "portfolio"
+  ],
+  "author": "eric clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricRClark/EricRClark.github.io/issues"
+  },
+  "homepage": "https://github.com/EricRClark/EricRClark.github.io#readme"
+}
