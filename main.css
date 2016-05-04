@@ -111,7 +111,13 @@ div.contact-section img {
   border: 3px solid;
   border-radius: 75px;
   margin-top: 4%;
+}
 
+div.contact-section li {
+  /*display: inline-block;*/
+  /*text-align: center;*/
+  font-family: 'Rye', cursive;
+  padding-left: 10%;
 }
 
 div.peace img {
@@ -121,6 +127,7 @@ div.peace img {
     margin-bottom: -11%;
     margin-top: 1%;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -388,4 +395,5 @@ div.bio-section {
 
 p {
 font-family:'Rye', cursive;
+font-size: 20px;
 }
