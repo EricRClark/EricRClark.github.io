@@ -28,7 +28,7 @@ body::after {
    filter: url(images/bg.jpg);
    filter: gray;
    -webkit-filter: grayscale(1);
-   height: 795px;
+   height: 800px;
 }
 
 h1 {
@@ -87,9 +87,9 @@ h2 {
 }
 
 nav.navbar {
-  padding-left: 44%;
+  padding-left: 42%;
   padding-top: -2%;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 a {
