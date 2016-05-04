@@ -28,7 +28,7 @@ body::after {
    filter: url(images/bg.jpg);
    filter: gray;
    -webkit-filter: grayscale(1);
-   height: 780px;
+   height: 910px;
 }
 
 h1 {
