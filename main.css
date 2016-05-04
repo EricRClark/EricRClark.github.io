@@ -113,6 +113,14 @@ div.contact-section img {
   margin-top: 4%;
 
 }
+
+div.peace img {
+  display:inline-block;
+  display: inline-block;
+    margin-left: 42%;
+    margin-bottom: -11%;
+    margin-top: 1%;
+}
 * {
   margin: 0;
   padding: 0;
