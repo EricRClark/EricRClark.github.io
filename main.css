@@ -107,9 +107,9 @@ div.NameHeading img {
 }
 div.contact-section img {
   height: 100%auto;;
-  margin-left: 24%;
+  /*margin-left: 0%;*/
   border: 3px solid;
-  border-radius: 75px;
+  border-radius: 55px;
   margin-top: 4%;
 }
 
@@ -210,7 +210,7 @@ div.bio-section {
 
 .hovereffect img {
   display: block;
-  border-radius: 55px;
+  border-radius: 65px;
   position: relative;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -273,7 +273,7 @@ div.bio-section {
 
 .hovereffect hr {
   color: #FFFF10;
-  width: 50%;
+  width: 25%;
   opacity: 0;
   filter: alpha(opacity=0);
 }
@@ -329,7 +329,7 @@ div.bio-section {
 .hovereffect p {
   width: 30%;
   text-transform: none;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 2;
 }
 
