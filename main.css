@@ -37,13 +37,16 @@ h1 {
   padding-top: 8%;
   font-family: 'Londrina Outline', cursive;
   color: #FFFF10
-  font-weight: 500;
+  font-weight:bolder;
   text-shadow: 1px 1px 2px black, 0 0 1em #FFC190, 0 0 0.2em #395C9C;
   position: static;
 }
 
 h2 {
   text-align: center;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
  h3 {
@@ -368,5 +371,5 @@ div.bio-section {
 }
 
 p {
-  font: 'Rye', cursive;
+font-family:'Rye', cursive;
 }
