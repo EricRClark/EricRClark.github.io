@@ -28,7 +28,7 @@ body::after {
    filter: url(images/bg.jpg);
    filter: gray;
    -webkit-filter: grayscale(1);
-   height: 800px;
+   height: 780px;
 }
 
 h1 {
@@ -365,4 +365,8 @@ div.bio-section {
   transform: translate3d(0,0,0) rotate(45deg) scale(1);
   opacity: 1;
   filter: alpha(opacity=100);
+}
+
+p {
+  font: 'Rye', cursive;
 }
