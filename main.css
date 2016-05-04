@@ -4,7 +4,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: -530px;
-  background-color: #2B6871;
+  background-color: #051C1F;
   color: #FFFF10;
 }
 
@@ -124,6 +124,14 @@ div.peace img {
 * {
   margin: 0;
   padding: 0;
+}
+
+div.bio-section img {
+  height: 245px;
+  width: 210px;
+  margin-left: 42%;
+  border-radius: 65px;
+  display: inline-block;
 }
 
 nav {
