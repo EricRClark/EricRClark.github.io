@@ -489,3 +489,12 @@ p {
 section.resume-section {
     margin-top: 11%;
 }
+
+.LH {
+  text-align: center;
+}
+ul.icons {
+font-size: 55px;
+text-align: -webkit-center;
+padding-top: 9%;
+}
