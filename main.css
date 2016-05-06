@@ -131,7 +131,7 @@ a {
 div.NameHeading img {
     height: 200px;
     margin-left: 43%;
-    border: 3px solid;
+    border: 2px solid;
     border-radius: 75px;
     -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -143,6 +143,11 @@ div.NameHeading img {
 div.NameHeading img:hover {
   border: 100px solid transparent;
   border-radius: 70%;
+}
+
+div.contact-section {
+  margin-top: 5%;
+  margin-bottom: 3%;;
 }
 
 div.contact-section img {
@@ -282,6 +287,7 @@ div.bio-section {
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   margin-left: 27%;
+  margin-bottom: 5%;
 }
 
 .hovereffect:hover img {
@@ -387,13 +393,13 @@ div.bio-section {
 }
 
 .group2 {
-  top: 55%;
+  top: 54%;
 }
 
 .hovereffect p {
   width: 30%;
   text-transform: none;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 2;
 }
 
@@ -462,7 +468,13 @@ font-family:'Rye', cursive;
 font-size: 20px;
 }
 
-.bottom-container {
+.resume-container {
   height: 500px;
   background-color: #617CA9;
+  color: #FFFF10;
+  font-weight: bolder;
+}
+
+section.resume-section {
+  margin-top: 11%;
 }
