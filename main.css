@@ -4,9 +4,38 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: -530px;
-  background-color: #051C1F;
+  background-color: #2D5AA7;
   color: #FFFF10;
 }
+
+div.bio-section img {
+  height: 245px;
+  width: 250px;
+  margin-left: 12%;
+  border-radius: 65px;
+}
+
+.bio-section {
+  display:inline;
+}
+
+div.bio-section img:hover {
+  -webkit-box-shadow: 0px 0px 15px 15px #FFFF10;
+box-shadow: 0px 0px 15px 15px #FFFF10;
+border-radius:50%;
+opacity: 0.6;
+-webkit-transform: rotate(720deg);
+transform: rotate(720deg);
+width: 300px;
+height: 400px;
+background-color: white;
+}
+
+div.bio-section img {
+  opacity: 1;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  }
 
 body::after {
  content: "";
@@ -100,11 +129,22 @@ a {
 }
 
 div.NameHeading img {
-    height: 156px;
-    margin-left: 44%;
-    border: 5px solid;
+    height: 200px;
+    margin-left: 43%;
+    border: 3px solid;
     border-radius: 75px;
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
+
+div.NameHeading img:hover {
+  border: 100px solid transparent;
+  border-radius: 70%;
+}
+
 div.contact-section img {
   height: 100%auto;;
   /*margin-left: 0%;*/
@@ -122,10 +162,27 @@ div.contact-section li {
 
 div.peace img {
   display:inline-block;
-  display: inline-block;
-    margin-left: 42%;
-    margin-bottom: -11%;
-    margin-top: 1%;
+ display: inline-block;
+   margin-left: 42%;
+   margin-bottom: -11%;
+   margin-top: 1%;
+   transform-origin: right bottom;
+  -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.9s ease;
+      -o-transition: all 0.9s ease;
+     -ms-transition: all 0.9s ease;
+         transition: all 0.5s ease;
+         margin-left: 41%;
+}
+
+div.peace img:hover {
+  /*border-radius: 50%;*/
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
 * {
@@ -133,16 +190,23 @@ div.peace img {
   padding: 0;
 }
 
-div.bio-section img {
-  height: 245px;
-  width: 210px;
-  margin-left: 42%;
-  border-radius: 65px;
-  display: inline-block;
+
+
+div.bio-section p {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-bottom: 5%;
+
 }
 
+div.projects-section h2 {
+margin-top: 11%;
+
+}
 nav {
   margin: 50px;
+  opacity: .9;
+
 }
 
 ul {
@@ -396,4 +460,9 @@ div.bio-section {
 p {
 font-family:'Rye', cursive;
 font-size: 20px;
+}
+
+.bottom-container {
+  height: 500px;
+  background-color: #617CA9;
 }
