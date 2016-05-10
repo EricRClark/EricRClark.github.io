@@ -1,11 +1,9 @@
 body {
-    width: 100%;
-    background-image: url(images/bg.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: -530px;
-    background-color: #1B180B;
+    background-color: #69B2E6;
     color: #FFFF10;
+    -webkit-box-shadow: 0 0 15px 15px #FFFF10;
+    box-shadow: 0 0 15px 15px #FFFF10;
+    text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;
 }
 
 div.bio-section img {
@@ -54,6 +52,7 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -2;
+    background-position-y: -266px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -62,14 +61,14 @@ body::after {
     filter: url(images/bg.jpg);
     filter: gray;
     -webkit-filter: grayscale(1);
-    height: 910px;
+    height: 695px;
 }
 
 h1 {
     font-size: 70px;
     text-align: center;
-    padding-top: 8%;
-    font-family: 'Londrina Outline',cursive;
+    padding-top: 12%;
+    font-family:'Della Respira', serif;
     color: #FFFF10;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;
@@ -78,18 +77,21 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: 'Londrina Outline',cursive;
+    font-family:'Della Respira', serif;
     font-size: 50px;
     font-weight: bolder;
+    /*text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;*/
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 h3 {
     font-size: 40px;
     text-align: center;
     padding-top: -1.5%;
-    font-family: 'Londrina Outline',cursive;
+    font-family:'Della Respira', serif;
     font-weight: 700;
-    text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;
+    /*text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;*/
     position: static;
 }
 
@@ -126,9 +128,9 @@ h3 {
 }
 
 nav.navbar {
-    padding-left: 42%;
+    padding-left: 45%;
     padding-top: -2%;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 a {
@@ -170,23 +172,22 @@ div.contact-section img {
 div.contact-section li {
 /*display: inline-block;*/
 /*text-align: center;*/
-    font-family: 'Rye',cursive;
+    font-family: 'Federo', sans-serif;
     padding-left: 10%;
 }
 
 div.peace img {
     display: inline-block;
-    display: inline-block;
     margin-left: 42%;
     margin-bottom: -11%;
-    margin-top: -1%;
+    margin-top: 1%;
     transform-origin: right bottom;
     -webkit-transition: all .1s ease;
     -moz-transition: all .9s ease;
     -o-transition: all .9s ease;
     -ms-transition: all .9s ease;
     transition: all .5s ease;
-    margin-left: 41%;
+    margin-left: 1%;
 }
 
 div.peace img:hover {
@@ -224,9 +225,19 @@ div.projects-section h2 {
     padding-bottom: 2%;
 }
 
-nav {
+/*nav {
     margin: 50px;
     opacity: .9;
+}*/
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: #47B97C;
+  padding-top: 2%;
 }
 
 ul {
@@ -239,7 +250,8 @@ li {
     float: left;
     margin-right: 0;
     border-right: 1px solid #aaa;
-    padding: 0 20px;
+    padding: 0 60px;
+    padding-bottom: 4%;
 }
 
 li:last-child {
@@ -249,7 +261,7 @@ li:last-child {
 li a {
     text-decoration: none;
     color: #FFFF10;
-    font: 25px/1 Rye,cursive;
+    font: 25px/1 Federo, sans-serif;
     text-transform: uppercase;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -314,8 +326,8 @@ li.active a {
     text-transform: uppercase;
     color: #FFFF10;
     text-align: center;
-    font-family: 'Londrina Outline';
-    font-size: 107px;
+    font-family:'Della Respira', serif;
+    font-size: 65px;
     font-weight: 700;
     padding: 10px;
     width: 100%;
@@ -474,8 +486,11 @@ li.active a {
 }
 
 p {
-    font-family: 'Rye',cursive;
+    font-family: 'Federo', sans-serif;
     font-size: 20px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 3%;
 }
 
 .resume-container {
@@ -484,6 +499,7 @@ p {
     background-color: #617CA9;
     color: #FFFF10;
     font-weight: bolder;
+    margin-top: -4%;
 }
 
 section.resume-section {
@@ -496,5 +512,5 @@ section.resume-section {
 ul.icons {
 font-size: 55px;
 text-align: -webkit-center;
-padding-top: 9%;
+padding-top: -1%;
 }
