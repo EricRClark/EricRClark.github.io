@@ -170,15 +170,15 @@ div.contact-section img {
 }
 
 div.contact-section li {
-/*display: inline-block;*/
-/*text-align: center;*/
+    display: inline-block;
+    text-align: center;
     font-family: 'Federo', sans-serif;
-    padding-left: 10%;
+    padding-left: 20%;
+    font-size: 2em;
 }
 
 div.peace img {
     display: inline-block;
-    margin-left: 42%;
     margin-bottom: -11%;
     margin-top: 1%;
     transform-origin: right bottom;
@@ -187,7 +187,7 @@ div.peace img {
     -o-transition: all .9s ease;
     -ms-transition: all .9s ease;
     transition: all .5s ease;
-    margin-left: 1%;
+    margin-left: 2.5%;
 }
 
 div.peace img:hover {
@@ -251,7 +251,7 @@ li {
     margin-right: 0;
     border-right: 1px solid #aaa;
     padding: 0 60px;
-    padding-bottom: 4%;
+    padding-bottom: 4%
 }
 
 li:last-child {
@@ -506,9 +506,6 @@ section.resume-section {
     margin-top: 11%;
 }
 
-.LH {
-  text-align: center;
-}
 ul.icons {
 font-size: 55px;
 text-align: -webkit-center;
