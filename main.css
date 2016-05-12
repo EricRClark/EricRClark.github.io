@@ -1,6 +1,6 @@
 body {
     background-color: #69B2E6;
-    color: #FFFF10;
+    color: #FFD300;
     -webkit-box-shadow: 0 0 15px 15px #FFFF10;
     box-shadow: 0 0 15px 15px #FFFF10;
     text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;
@@ -71,7 +71,7 @@ h1 {
     text-align: center;
     padding-top: 12%;
     font-family:'Della Respira', serif;
-    color: #FFFF10;
+    color: #FFD300;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;
     position: static;
@@ -82,9 +82,21 @@ h2 {
     font-family:'Della Respira', serif;
     font-size: 50px;
     font-weight: bolder;
-    /*text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;*/
+    text-shadow: 1px 1px 2px black,0 0 1em #FFC190,0 0 .2em #395C9C;
     padding-top: 1%;
     padding-bottom: 2%;
+
+}
+section.resume-section h2 {
+  background-color: #69B2E6;
+  margin-top: -6%;
+  padding-bottom: .5%;
+}
+
+div.about {
+  background-color: #69B2E6;
+  padding-bottom: .5px;
+  margin-top: -4%;
 }
 
 h3 {
@@ -104,11 +116,6 @@ h3 {
     margin: 60px auto;
 }
 
-.carousel-inner {
-/*background-image: url(images/aboutmebg.jpg);*/
-    color: #FFFF10;
-}
-
 .button {
     border: 0 none;
     border-radius: 50px;
@@ -122,7 +129,7 @@ h3 {
     text-align: center;
     line-height: 2.3;
     font-size: 30px;
-    color: #fff;
+    color: #FFD300;
     text-transform: none;
     font-weight: 800;
     transition: all 60ms ease-in-out;
@@ -136,7 +143,7 @@ nav.navbar {
 }
 
 a {
-    color: #FFF849;
+    color: #FFD300;
 }
 
 div.NameHeading img {
@@ -212,16 +219,24 @@ div.bio-section p {
     margin-left: 13%;
     margin-right: 13%;
     margin-bottom: 5%;
+    margin-top: 4%;
 }
 
 div.projects-section h2 {
-    margin-top: -12px;
-    margin-bottom: 35px;
-    background-image: url(images/contactbg.jpg);
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin-top: 3.5%;
+    margin-bottom: -22px;
+    /*padding-top: 1%;
+    padding-bottom: 1%;*/
 }
 
+div.projects-section {
+  margin-top: -4%;
+}
+
+h3.pdf {
+  margin-top: 45px;
+  margin-bottom: -15px;
+}
 /*nav {
     margin: 50px;
     opacity: .9;
@@ -257,7 +272,7 @@ li:last-child {
 
 li a {
     text-decoration: none;
-    color: #FFFF10;
+    color: #FFD300;
     font: 25px/1 Federo, sans-serif;
     text-transform: uppercase;
     -webkit-transition: all .5s ease;
@@ -321,7 +336,7 @@ li.active a {
 
 .hovereffect h2 {
     text-transform: uppercase;
-    color: #FFFF10;
+    color: #FFD300;
     text-align: center;
     font-family:'Della Respira', serif;
     font-size: 65px;
@@ -349,7 +364,7 @@ li.active a {
 }
 
 .hovereffect a.info:hover {
-    box-shadow: 0 0 5px #FFFF10;
+    box-shadow: 0 0 5px #FFD300;
 }
 
 .hovereffect .rotate {
@@ -362,7 +377,7 @@ li.active a {
 }
 
 .hovereffect hr {
-    color: #FFFF10;
+    color: #FFD300;
     width: 25%;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -494,7 +509,7 @@ p {
     background-image: url(images/contactbg.jpg);
     height: 470px;
     /*background-color: #617CA9;*/
-    color: #FFFF10;
+    color: #FFD300;
     font-weight: bolder;
     margin-top: -4%;
 }
@@ -508,4 +523,100 @@ font-size: 40px;
 text-align: -webkit-center;
 padding-top: -1%;
 margin-bottom: 23px;
+}
+
+
+.carousel-inner .item {
+  max-height: 680px;
+}
+.carousel-inner .item:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.carousel-control {
+  width: 10%;
+}
+
+.carousel-control .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .fa.fa-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control .fa {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel-control .fa-chevron-left {
+    margin-left: -15px;
+  }
+}
+/**
+ * Slider caption
+ */
+.carousel-caption h2 {
+  color: #FFD300;
+  font-size: 70px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.carousel-caption p {
+  font-family: 'Della Respira', serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: #FFD300;
+  background-color: inherit;
+}
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    bottom: 20%;
+  }
+}
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: ##FFD300;
+  border: 2px solid #FFD300;
+}
+.btn-transparent:hover {
+  background-color: ##FFD300;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }

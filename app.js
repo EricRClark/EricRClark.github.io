@@ -1,11 +1,16 @@
 $(document).ready(function() {
-    // page.init();
-
-
+    page.init();
 $(".flip").hover(function(){
   $(this).find(".card").toggleClass("flipped");
   return false;
-});
+})
+
+$('.slider2').bxSlider({
+    slideWidth: 300,
+    minSlides: 2,
+    maxSlides: 2,
+    slideMargin: 10
+  });
 });
 // var page = {
 //     init: function() {
