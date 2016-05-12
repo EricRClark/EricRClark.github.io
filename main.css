@@ -499,10 +499,11 @@ li.active a {
 
 p {
     font-family: 'Federo', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 13%;
     margin-right: 13%;
     margin-bottom: 3%;
+    color: #C20126;
 }
 
 .resume-container {
